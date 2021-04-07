@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="maindiv">
+    <div class="mobile">
+      <div class="head">
+        <div class="notch"></div>
+        <div class="profilebox">
+          <div class="left">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <div class="profile">
+              <img src="images/avatar.jpg" alt="dp">
+              <div class="pdetail">
+                <h3>Samuel Green</h3>
+                <p>Available to Walk</p>
+              </div>
+            </div>
+          </div>
+          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="chatbox">
+        <div class="eachmessage received animate">
+          <p>That sounds great. I’d be happy with that.</p>
+        </div>
+        <div class="eachmessage received animate">
+          <p>Could you send over some pictures of your dog, please?</p>
+        </div>
+        <div class="eachmessage imgbox">
+          <img class="animate" src="images/dog-image-1.jpg" alt="dog1">
+          <img class="animate" src="images/dog-image-2.jpg" alt="dog2">
+          <img class="animate" src="images/dog-image-3.jpg" alt="dog3">
+        </div>
+        <div class="eachmessage sent animate">
+          <p>Here are a few pictures. She’s a happy girl!</p>
+        </div>
+        <div class="eachmessage sent animate">
+          <p>Can you make it?</p>
+        </div>
+        <div class="eachmessage received animate">
+          <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        </div>
+        <div class="deal animate">
+          <div class="det">
+            <input type="radio" name="plan">
+            <p>30 minute walk</p>
+          </div>
+          <p class="price">$29</p>
+        </div>
+        <div class="deal animate">
+          <div class="det">
+            <input type="radio" name="plan">
+            <p>1 hour walk</p>
+          </div>
+          <p class="price">$49</p>
+        </div>
+    </div>
+    <div class="sendbox">
+      <input type="text" placeholder="Type a message…">
+      <button class="submit"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+    </div>
+    <div class="text">
+      <h1>Simple booking</h1>
+      <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.</p>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
+    Coded by <a href="https://www.instagram.com/developer_sah/" target="_blank">Rahul Sah</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
